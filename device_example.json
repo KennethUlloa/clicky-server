@@ -1,0 +1,6 @@
+{
+    "127.0.0.1": {
+        "secret": "123456",
+        "permissions": ["login:secret", "login:qrcode"]
+    }
+}

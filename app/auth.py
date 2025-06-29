@@ -32,5 +32,4 @@ def get_identity():
 
 
 def validate(token):
-    print(token, current_app.secret_key)
     return decode(token, current_app.secret_key, ["HS256"])
